@@ -1,16 +1,4 @@
 📘 PRD — 출퇴근 기록 시스템 (Google Sheet + Apps Script 기반)
-
-버전: 1.0
-운영 타임존: Asia/Seoul
-백엔드: Google Apps Script Web App
-프론트: 기본 불필요(필요 시 Next.js/Vercel로 QR 랜딩 정도)
-데이터 소스: Google Spreadsheet
-ID: 1rh8T_CDJOj9_ldxzcOSzCRXIln5MfLPRc0TkCbXeHTI
-Sheet명: 출퇴근기록
-인증: 카카오 OAuth 로그인
-QR 전략: 기본값 = 단일 공용 QR
-기록 방식: 15:00 이전 = 출근 / 15:00 이후 = 퇴근
-
 1. 🟦 배경 & 목표
 1.1 배경
 
