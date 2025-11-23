@@ -1,3 +1,12 @@
 .env
+.env.local
+.env.template
 node_modules/
 .clasp.json
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.production.local
+frontend/.vercel
