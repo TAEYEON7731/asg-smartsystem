@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"$body = @{\n    action = ''scan''\n    id_token = ''TEST_TOKEN_12345''\n    ts_client = ''2024-01-01T09:00:00''\n    lat = 37.5\n    lng = 127.0\n    ua = ''PowerShell Client''\n} | ConvertTo-Json; Invoke-RestMethod -Uri ''https://script.google.com/macros/s/AKfycbyKpeLCbtfoV6nqvYPynM7xcnTKJ2DPgIbN9RK6eaq-O4K86RJlIaXFJQG5EZXDOrlB2Q/exec'' -Method Post -Body $body -ContentType ''application/json''\")",
+      "Bash(clasp push:*)",
+      "Bash(clasp status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

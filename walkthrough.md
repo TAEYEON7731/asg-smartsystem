@@ -35,7 +35,7 @@ $body = @{
     ua = "PowerShell Client"
 } | ConvertTo-Json
 
-Invoke-RestMethod -Uri "[WEB_APP_URL]" -Method Post -Body $body -ContentType "application/json"
+Invoke-RestMethod -Uri "https://script.google.com/macros/s/AKfycbyKpeLCbtfoV6nqvYPynM7xcnTKJ2DPgIbN9RK6eaq-O4K86RJlIaXFJQG5EZXDOrlB2Q/exec" -Method Post -Body $body -ContentType "application/json"
 ```
 
 ### B. 퇴근 테스트 (15시 이후 가정)
